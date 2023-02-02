@@ -31,6 +31,7 @@ public class Program {
 			System.out.println(obj);
 		}
 
+		System.out.println("===Test 3 : Department findAll");
 		list = sellerDao.findAll();
 
 		for (Seller obj : list) {
